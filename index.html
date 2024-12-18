@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Notes Sharing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>College Notes Sharing</h1>
+    </header>
+
+    <main>
+        <section id="upload-section">
+            <h2>Upload Your Notes</h2>
+            <form id="upload-form">
+                <label for="note-title">Note Title:</label>
+                <input type="text" id="note-title" placeholder="Enter title" required>
+                <label for="note-file">Upload PDF:</label>
+                <input type="file" id="note-file" accept="application/pdf" required>
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+
+        <section id="notes-section">
+            <h2>Available Notes</h2>
+            <ul id="notes-list">
+                <!-- Uploaded notes will appear here -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 College Notes Sharing </p>
+        <h5>By Ashish Sah</h5>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

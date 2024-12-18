@@ -1,0 +1,88 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #faf4f4;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+#upload-section, #notes-section {
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+form {
+    background: rgb(248, 246, 246);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #252020;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #1f2174;
+    color: rgb(130, 186, 219);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0e110f;
+}
+
+#notes-list {
+    list-style: none;
+    padding: 0;
+}
+
+#notes-list li {
+    background: rgb(37, 30, 30);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#notes-list a {
+    color: #0b0f14;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background: #050505;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
