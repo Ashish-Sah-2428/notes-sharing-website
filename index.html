@@ -1,41 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>College Notes Sharing</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashish Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- FontAwesome for Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <h1>College Notes Sharing</h1>
-    </header>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <div class="logo">Ashish Sah</div>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#qualification">Qualification</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <section id="upload-section">
-            <h2>Upload Your Notes</h2>
-            <form id="upload-form">
-                <label for="note-title">Note Title:</label>
-                <input type="text" id="note-title" placeholder="Enter title" required>
-                <label for="note-file">Upload PDF:</label>
-                <input type="file" id="note-file" accept="application/pdf" required>
-                <button type="submit">Upload</button>
-            </form>
-        </section>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I am <span>Ashish</span></h1>
+      <h2>Web Developer</h2>
+      <p>
+        I have a passion for building intuitive, user-friendly interfaces that provide an enjoyable and seamless user experience.
+      </p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+    <div class="hero-image">
+      <!-- <img src="profile.jpeg" alt="Profile Picture"> -->
+    </div>
+  </section>
 
-        <section id="notes-section">
-            <h2>Available Notes</h2>
-            <ul id="notes-list">
-                <!-- Uploaded notes will appear here -->
-            </ul>
-        </section>
-    </main>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Ashish, a computer science student with a passion for web development. I have a strong foundation in HTML, CSS, JavaScript, and am learning backend technologies. I'm eager to grow my skills and work on real-world projects that challenge me. Always looking to learn and stay updated with new tools and frameworks, I'm excited to contribute to innovative web applications.
 
-    <footer>
-        <p>&copy; 2024 College Notes Sharing </p>
-        <h5>By Ashish Sah</h5>
-    </footer>
+.</p>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-content">
+      <div class="skill">
+        <i class="fas fa-code skill-icon"></i>
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JavaScript</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Qualification Section -->
+  <section id="qualification" class="qualification">
+    <h2>Qualification</h2>
+    <div class="qualification-content">
+      <div class="degree">
+        <h3>Pursuing Bachelor's in Computer Science</h3>
+        <p>KIET</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Contact Me Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-content">
+      <p><strong><i class="fas fa-phone-alt"></i> Phone:</strong> +91-7042230696</p>
+      <p><strong><i class="fas fa-envelope"></i> Email:</strong> sah803884@gmail.com</p>
+      <p><strong><i class="fas fa-map-marker-alt"></i> Location:</strong> Ghaziabad(UP), India</p>
+    </div>
+  </section>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 </body>
 </html>
